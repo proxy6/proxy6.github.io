@@ -117,10 +117,10 @@ h6.top-title {
   background: url(../images/IMG_20201113_214703_970.JPG);
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -ms-background-size: cover;
+  background-size: cover;
+  background-size: cover;
+  background-size: cover;
+  background-size: cover;
   min-height: 875px;
   width: 532px;
   position: fixed;
@@ -254,7 +254,7 @@ h6.top-title {
 }
 
 /*--//about-- */
-/* gallery */
+
 /* popup */
 
 .popup-effect {
@@ -301,7 +301,6 @@ h6.top-title {
   color: #000;
 }
 /* //popup */
-/*--//gallery--*/
 
 .view-buttn a {
   font-size: 15px;
@@ -754,10 +753,7 @@ a.move-top span {
   .contact-w3pvt-address {
     margin-top: 20px;
   }
-  .gallery-img-grid {
-    width: 70%;
-    margin: 0px auto;
-  }
+
   .social-icons ul li {
     padding-top: 23px;
   }
@@ -766,9 +762,6 @@ a.move-top span {
   }
 }
 @media (max-width: 480px) {
-  .gallery-img-grid {
-    width: 80%;
-  }
   .sub-position {
     left: 18%;
   }
@@ -830,9 +823,7 @@ a.move-top span {
   .get-update-wthree {
     padding: 1.2em 1.4em;
   }
-  .gallery-img-grid {
-    width: 90%;
-  }
+
   .social-icons ul li a span {
     font-size: 15px;
   }
@@ -850,9 +841,7 @@ a.move-top span {
   h3.title {
     font-size: 24px;
   }
-  .gallery-img-grid {
-    width: 100%;
-  }
+
   .about-wthree-images {
     width: 80%;
   }
