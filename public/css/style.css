@@ -169,7 +169,7 @@ h6.top-title {
 }
 
 .js {
-  width: 70%;
+  width: 60%;
   background-color: #ebb2db;
 }
 .node {
@@ -185,11 +185,11 @@ h6.top-title {
   background-color: #ebb2db;
 }
 .html {
-  width: 95%;
+  width: 85%;
   background-color: #ebb2db;
 }
 .css {
-  width: 75%;
+  width: 70%;
   background-color: #ebb2db;
 }
 .bootstrap {
