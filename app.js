@@ -64,7 +64,7 @@ app.post('/contact', (req, res) => {
         console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
     }
     main().catch(console.error);
-    res.render('index')
+    res.redirect('index')
 })
 
 const port = process.env.PORT || 3500
