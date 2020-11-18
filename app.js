@@ -67,7 +67,7 @@ app.post('/contact', (req, res) => {
     res.render('index', { message: 'contact received' })
 })
 
-const port = 3500 || process.env.PORT
+const port = process.env.PORT || 3500
 app.listen(port, () => {
     console.log('server started')
 })
